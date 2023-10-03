@@ -1,0 +1,4 @@
+---delete this and enter your api-key---
+gpt-3.5-turbo
+gpt-3.5-turbo-16k
+

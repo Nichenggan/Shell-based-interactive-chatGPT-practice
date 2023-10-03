@@ -1,0 +1,10 @@
+The first loop is called Chatnow, in this loop we do not do chat things, we only do some modifications to the chatbotcore.
+
+Commands:
+
+start			Start the chatloop
+exit			Exit the Chatnow
+help			Open this manuel
+core	[Option]	Change the core or just see the current core.
+	-default	gpt-3.5-turbo
+	-large		gpt-3.5-turbo-16k
