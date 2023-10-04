@@ -3,7 +3,7 @@ path="/mnt/d/github/chatnow" #modify your path here
 touch $path/messages.txt
 echo 0 > $path/tokens.txt
 echo "{\"role\": \"system\", \"content\": \"You are a helpful assistant.\"}" > $path/messages.txt
-echo "Enjoy your chat now ! Try not to use Double quotation marks. Type -end to end the conversation."
+echo "Enjoy your chat now ! Try not to use Double quotation marks. Type -end to end the conversation. Type -tokens to see how many tokens used."
 
 module=$1
 if [ $module = 1 ]; then

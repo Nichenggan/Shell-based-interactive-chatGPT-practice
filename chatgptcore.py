@@ -17,7 +17,6 @@ response = openai.ChatCompletion.create(
 	model=Model,
 	messages=new_message,
 	temperature=0,
-    max_tokens=10000
 )
 
 with open(f"{sys.argv[3]}/tokens.txt", "w+") as file:
